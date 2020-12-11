@@ -1,0 +1,96 @@
+.clients.container {
+    padding-bottom: 94px;
+  }
+  .clients .title {
+    margin-top: 94px;
+    margin-bottom: 0;
+    color: $title-text-color;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+  }
+  .clients .clients-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .clients .clients-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .clients .clients-links {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+  
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+ 
+  &:hover,
+  &:focus .clients-icon {
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
+}
+  .clients-icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* .clients-list .clients-item:nth-child(1)::before {
+    background-image: url(../images/First.svg);
+  }*/
+
+  svg.clients-icon{
+
+    fill:#AFB1B8;
+    width:50px;
+    height: 45px;
+    /*position: absolute;*/
+    
+    
+    &:focus,
+    &:hover{
+    fill: $accent-color;
+    }
+  }
+    .clients-links:focus .clients-icon,
+.clients-links:hover .clients-icon {
+fill: $accent-color;
+}
+  /*.clients-list .clients-item::before {
+      display: block;
+      content: '';
+      height: 120px;
+    
+      background-color: #f5f4fa;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 4px;
+    }
+    .clients-list .clients-item:nth-child(1)::before {
+      background-image: url(../images/First.svg);
+    }
+    .clients-list .clients-item:nth-child(2)::before {
+      background-image: url(../images/Second.svg);
+    }
+    .clients-list .clients-item:nth-child(3)::before {
+      background-image: url(../images/Third.svg);
+    }
+    .clients-list .clients-item:nth-child(4)::before {
+      background-image: url(../images/foth.svg);
+    }
+    .clients-list .clients-item:nth-child(4)::before {
+      background-image: url(../images/fifth.svg);
+    }
+    .clients-list .clients-item:nth-child(4)::before {
+      background-image: url(../images/six.svg);
+    }*/

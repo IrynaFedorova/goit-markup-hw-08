@@ -1,0 +1,141 @@
+.site-nav-list {
+    display: inline-flex;
+    align-items: center;
+  
+  
+  
+  &.a:hover, 
+  &.a:focus{
+    color: $accent-color;
+  }
+}
+
+  .site-nav-list a{
+    color: $title-text-color;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding-right:50px;
+  }
+  
+  
+  .site-nav-list .a .current{
+    color:$accent-color;
+  }
+  
+  
+  .site-nav-list-address {
+    display: flex;
+    margin-left: 170px;
+  }
+  
+  .site-nav-list-address .contacts-item+ .item{
+    margin-left: 50px;
+  }
+  
+  .contacts-item{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 50px;
+  }
+  /*.address-link{
+padding-left: 10px;
+}*/
+
+.site-nav-list-address a{
+    color: #757575;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+    text-decoration: none;
+  
+  
+  &:hover, 
+  &:focus{
+    color: $accent-color;
+  }
+  
+  &.current{
+    color:$accent-color;
+  }
+}
+  
+  .site-nav .contacts-item:last-child{
+    margin-right: 0;
+  }
+
+  .link.current {
+    position: relative;
+    
+    color: $accent-color;
+   
+    &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    
+    height: 4px;
+    width: 50%;
+    
+    background-color: $accent-color;
+    border-radius: 2px;
+    }
+  }
+    
+    .link.currentSecond {
+    position: relative;
+    
+    color: $accent-color;
+    
+    
+    &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    
+    height: 4px;
+    width: 78px;
+    
+    background-color: $accent-color;
+    border-radius: 2px;
+    }
+  }
+    .link:hover,
+    .link:focus {
+    color: $accent-color;
+    }
+    .color-page{
+      color: #2196F3;
+    }    
+    svg.address-link-icon{
+      width: 30px;
+      height: 16px;
+      fill:#757575;
+      align-items: baseline;
+      /*padding-right: 10px;*/
+      /*padding-top: 6px;*/
+      padding-left: 3px;
+      padding-right: 3px;
+      float: left;
+      overflow: hidden;
+      }
+      
+      
+      .site-nav-list-address.address-link:focus .address-link-icon,
+      .address-link:hover .address-link-icon{
+      fill: $accent-color;
+      }
+      
+      li.contacts-item:focus,
+      li.contacts-item:hover {
+      fill: $accent-color;
+      }

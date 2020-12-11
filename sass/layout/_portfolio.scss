@@ -1,0 +1,16 @@
+.portfolio .filter {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio .filter-items:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .portfolio .filter-items{
+      display: inline;
+  }
+  .container.portfolio-padding {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+  }

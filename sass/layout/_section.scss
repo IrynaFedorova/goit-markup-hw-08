@@ -1,0 +1,95 @@
+.section-title{
+    color:$title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,7px;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    text-align: center;
+  
+  }
+
+  .section-details{
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 94px;
+    display: flex;
+   padding-bottom: 94px;
+  }
+
+  .heading{
+    display: flex;
+    margin:0;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .main-paragraph-h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    width: 270px;
+    text-align: left;
+    margin-right: 20px;
+    }
+  
+  .features .section-details {
+     padding: 94px 0px;
+     display: flex;
+      }
+  .section-details .items {
+        /* width: 270px; */
+        width: calc((100% - 90px) / 4);
+      }
+      
+  .section-details .items:not(:last-child) {
+        margin-right: 30px;
+      }
+  .section-details .items::before {
+        display: block;
+        content: '';
+        height: 120px;
+      
+        background-color: #f5f4fa;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+      }
+      .section-details .items:nth-child(1)::before {
+        background-image: url(../images/images-hm4/antena.svg);
+      }
+      .section-details .items:nth-child(2)::before {
+        background-image: url(../images/images-hm4/clock.svg);
+      }
+      .section-details .items:nth-child(3)::before {
+        background-image: url(../images/images-hm4/diagramm.svg);
+      }
+      .section-details .items:nth-child(4)::before {
+        background-image: url(../images/images-hm4/astronaut.svg);
+      }
+      .features .heading {
+        margin-top: 30px;
+        margin-bottom: 0px;
+      
+        color: $title-text-color;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+      }
+      .features .main-paragraph-h2 {
+        margin-top: 10px;
+        margin-bottom: 0;
+      
+        color: $primary-text-color;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+  
