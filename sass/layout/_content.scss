@@ -3,44 +3,30 @@
   }
   
   .portfolio .content {
-    /*display: flex;
-    flex-wrap: wrap;*/
-  }
-  
-  @media screen and (min-width: 768px){
-    .portfolio .content{
     display: flex;
     flex-wrap: wrap;
-    }
-  }
+   }
+  
+  
 
   .portfolio .content-items {
     /*width: calc((100% - 60px) / 3);*/
     border: 1px solid #eeeeee;
-  }
-
   @media screen and (min-width: 768px){
-    .portfolio .content-items{
       width: calc((100% - 60px) / 2)
     }
   }
 
-  /*.portfolio .content-items:not(:nth-child(3n)) {
+  .portfolio .content-items:not(:nth-child(3n)) {
     margin-right: 30px;
-  }*/
-
   @media screen and (min-width: 768px){
-   .portfolio .content-items:not(:nth-child(3n)) {
     margin-right: 30px;
     }
   }
 
-  /*.portfolio .content-items:not(:nth-child(-n + 3)) {
+  .portfolio .content-items:not(:nth-child(-n + 3)) {
     margin-top: 30px;
-  }*/
-
   @media screen and (min-width: 768px){
-    .portfolio .content-items:not(:nth-child(-n + 3)) {
       margin-top: 30px;
      }
    }

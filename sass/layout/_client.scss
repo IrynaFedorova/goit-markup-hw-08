@@ -15,23 +15,15 @@
     /*display: flex;*/
     justify-content: center;
     margin-top: 50px;
-  }
-
   @media screen and (min-width: 768px){
-  .clients .clients-list {
     display: flex;
   }
   }
 
   .clients .clients-item:not(:last-child) {
-    /*margin-right: 30px;*/
-  }
-
-  @media screen and (min-width: 768px){
-    .clients .clients-item:not(:last-child) {
     margin-right: 30px;
   }
-  }
+
   .clients .clients-links {
     /*display: flex;*/
     width: 170px;
@@ -47,11 +39,8 @@
   &:focus .clients-icon {
     border: 1px solid $accent-color;
     fill: $accent-color;
-  }
-}
 
 @media screen and (min-width: 768px){
-  .clients .clients-links{
   display: flex;
   }
 }
@@ -62,10 +51,8 @@
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
-  
+
   @media screen and (min-width: 768px){
-    .clients-icon{
       display: inline-block
     }
   }

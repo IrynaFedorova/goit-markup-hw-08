@@ -1,25 +1,21 @@
+.wedo{
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+}
+
 .wedo .list-margin {
     margin-top: 50px;
-    /*display: flex;*/
-    }
-
     @media screen and (min-width: 768px){
-      .wedo .list-margin {
-        display: flex;
-      }
+    display: flex;
+    }
     }
 
     .list-margin .item-img {
     position: relative;
     }
-    /*.list-margin .item-img:not(:last-child) {
-    margin-right: 30px;
-    }*/
-
-    @media screen and (min-width: 768px){
-      .list-margin .item-img:not(:last-child) {
+    .list-margin .item-img:not(:last-child) {
         margin-right: 30px;
-        }
     }
 
 
@@ -57,19 +53,10 @@
     }
 
     .primary-section{
-        /*display: flex;
+        display: flex;
         width: calc(100%-60px)/3;
-        justify-content: space-between;*/
+        justify-content: space-between;
         padding-bottom: 94px;
-      }
-
-
-      @media screen and (min-width: 768px){
-        .primary-section{
-          display: flex;
-          width: calc(100%-60px)/3;
-          justify-content: space-between;
-        }
       }
 
       .examples{
