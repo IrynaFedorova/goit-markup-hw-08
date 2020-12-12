@@ -1,7 +1,16 @@
-.hero {
+/*.hero {
     background-color: #2F303A;
     background-image: url(../images/images-hm4/Img2optim.jpg);
-    }
+   /* @media screen and (min-width: 767px){
+      background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/mobile-header.jpg");
+      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/mobile-header.jpg");}
+      @media screen and (min-width: 768px){
+        background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/tablet-header.jpg");
+        background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/tablet-header.jpg");}
+     @media screen and (min-width: 1200px){
+     background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
+     background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
+    }*/
     
     .hero-name{
       color: #FFFFFF;
@@ -30,11 +39,12 @@
     padding-bottom:280px;
     background-color: #2f303a;
    text-align: center;
-   background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
-   background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
-   /*background-image: url(../../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), linear-gradient( rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
    background-repeat: no-repeat;
-   background-size: cover;
-  /*background-attachment: fixed;
-  background-position: top 100px center;*/
-  }
+   /*@media screen and (min-width: 767px){
+    background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/mobile-header.jpg");
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/mobile-header.jpg");
+    @media screen and (min-width: 768px){
+      background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/tablet-header.jpg");
+      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/tablet-header.jpg");*/
+   background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
+   background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg")}
