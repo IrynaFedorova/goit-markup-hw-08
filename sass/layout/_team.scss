@@ -86,10 +86,9 @@
         /*display: flex;*/
         justify-content: center;
       @media screen and (min-width: 768px){
-        .section .section{
           display: flex;
         }
-      }
+   }
   
    .section > .comand {
        /* padding-bottom: 30px;*/
@@ -112,3 +111,4 @@
         display: flex;
       }
     }
+    
