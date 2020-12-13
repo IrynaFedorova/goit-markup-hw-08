@@ -69,6 +69,13 @@ height: 460px;
       justify-content: space-between;
       padding-bottom: 94px;
     }
+    @media screen and (max-width: 1190px){
+      display: block;
+      margin-top: 30px;
+      flex-direction: column;
+      columns: 2;
+      grid-column: 30px;
+      }
     @media screen and (min-width: 1200px){
       width: 1200px;
       display: flex;
@@ -134,6 +141,7 @@ height: 460px;
       .section-team {
         @media screen and (min-width: 768px){
         margin-top: 94px;}
+        
       }
       .wrapper {
         background: #f5f4fa;
