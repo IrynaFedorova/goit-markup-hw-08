@@ -12,11 +12,18 @@
   
   .text-decoration{
 text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+height: 21px;
   }
 
   .footer-site-nav-list {
-    display: inline-flex;
       @media screen and (max-width: 767px){
+        /*display: inline-flex;*/
         align-items: center;
       font-family: Roboto;
 font-style: normal;
@@ -30,7 +37,8 @@ float: center;
   }
   @media screen and (min-width: 1200px){
     display: inline-flex;
-    float: left;
+    align-items: center;
+    /*float: left;*/
 }}
   /*.footer-container{
   display:flex;
@@ -60,6 +68,8 @@ float: center;
   
   .footer-text-color{
     color: #FFFFFF;
+    display: block;
+    text-decoration: none;
   
   }
   /*ul.text-footer{
@@ -70,12 +80,16 @@ float: center;
   width: 280px;*/
   
   .column {
+    @media screen and (max-width: 767px){
     width: 100%;
     text-align: center;
     padding: 10px;
+  padding-bottom: 60px ;
+  }
     @media screen and (min-width: 768px){
       float: left;
       width: 25%;
+      padding: 10px;
     }
   }
   
@@ -104,6 +118,7 @@ float: center;
     width: 100%;
     padding-bottom: 60px;
       padding-top: 60px;
+      width: 100%;
     @media screen and (min-width: 768px){
       display: flex;
       margin:0 auto;
@@ -111,10 +126,11 @@ float: center;
   }
 
   .text-footer{
-    display: block;
     padding-bottom: 9px;
     @media screen and (max-width: 767px){
       text-align: center;
+      display: block;
+      padding-bottom: 9px;
     }
   }
 
@@ -244,14 +260,16 @@ float: center;
   }
 
   .footer-form {
-    text-align: center;
+    @media screen and (max-width: 767px){
+    text-align: center;}
     @media screen and (min-width: 768px){
     display: flex;
     align-items: flex-end;
     }
     }
     .footer-mai-input {
-      margin-bottom: 20px;
+      @media screen and (max-width: 767px){
+      margin-bottom: 20px;}
       @media screen and (min-width: 768px){
     display: flex;
     flex-direction: column;
@@ -289,8 +307,8 @@ float: center;
   
   div.background-lengthening-footer{
   margin: 0px auto;
-  width: 100%;
-  
+  @media screen and (max-width: 767px){
+  width: 100%;}
   }
 
   .footer-form-icon {
