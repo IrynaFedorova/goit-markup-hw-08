@@ -12,11 +12,13 @@
     text-align: center;
   }
   .clients .clients-list {
-    /*display: flex;*/
-    justify-content: center;
-    margin-top: 50px;
+    display: block;
+    margin-top: 30px;
+    width: calc(100%-30px)/2;
   @media screen and (min-width: 768px){
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
   }
   }
 
@@ -25,18 +27,19 @@
   }
 
   .clients .clients-links {
+    display: flex;
     width: 170px;
     height: 90px;
-    display: block;
-   /*justify-content: center;
-    align-items: center;*/
+    /*display: block;*/
+   justify-content: center;
+    align-items: center;
   
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    @media screen and (min-width: 768px){
+    /*@media screen and (min-width: 768px){
       display: flex;
-    }
+    }*/
   }
 
   .clients .clients-links:hover,
@@ -49,7 +52,7 @@
   }
 }
   .clients-icon{
-    /*display: inline-block;*/
+    display: inline-block;
     width: 1em;
     height: 1em;
     stroke-width: 0;

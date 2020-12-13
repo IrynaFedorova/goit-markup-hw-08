@@ -43,11 +43,14 @@
        }
       
       .container{
-        width: 100%;
+        width: 1200px;
         margin: 0 auto;
         /*padding-top: 24px;*/
        padding-right: 15px;
         padding-left: 15px;
+        @media screen and (max-width: 1199px) {
+          width: 100%;
+        }
         /*border-block-color: $accent-color;*/
         /*display: inline-flex;*/
 /*@media screen and (min-width: 480px){
@@ -62,13 +65,16 @@
 }
 
       .header-container{
-        width: 100%;
+        width: 1200px;
         margin: 0 auto;
         /*height: 80px;*/
       padding-top: auto;
         padding-bottom: auto;
         padding-right: 15px;
         padding-left: 15px;
+        @media screen and (max-width: 1199px) {
+          width: 100%;
+        }
      /* @media screen and (min-width: 480px){
           width: 480px
         }

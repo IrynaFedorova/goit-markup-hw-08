@@ -16,8 +16,8 @@ text-decoration: none;
 
   .footer-site-nav-list {
     display: inline-flex;
-      align-items: center;
       @media screen and (max-width: 767px){
+        align-items: center;
       font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -26,8 +26,12 @@ line-height: 24px;
 letter-spacing: 0.03em;
 height: 21px;
 text-decoration: none;
+float: center;
   }
-}
+  @media screen and (min-width: 1200px){
+    display: inline-flex;
+    float: left;
+}}
   /*.footer-container{
   display:flex;
   
@@ -108,9 +112,9 @@ text-decoration: none;
 
   .text-footer{
     display: block;
+    padding-bottom: 9px;
     @media screen and (max-width: 767px){
       text-align: center;
-      padding-bottom: 9px;
     }
   }
 
