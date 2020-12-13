@@ -1321,6 +1321,9 @@ li.contacts-item:hover {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
     padding-top: 200px;
     padding-bottom: 280px;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
   }
 }
 
@@ -1409,6 +1412,9 @@ li.contacts-item:hover {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
     padding-top: 200px;
     padding-bottom: 280px;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
   }
 }
 
@@ -3454,7 +3460,6 @@ div.background-lengthening-footer {
 }
 
 .comand {
-  width: 271px;
   /*height: 368px;*/
   border: 1px solid #ECECEC;
   background-color: #ffffff;
@@ -3466,6 +3471,16 @@ div.background-lengthening-footer {
 @media screen and (max-width: 767px) {
   .comand {
     margin-left: 15px;
+    width: 56%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .comand {
+    width: 271px;
   }
 }
 
@@ -3548,6 +3563,15 @@ div.background-lengthening-footer {
 
 .clients.container {
   padding-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .clients.container {
+    padding-bottom: 60px;
+  }
 }
 
 .clients .title {
@@ -3561,12 +3585,30 @@ div.background-lengthening-footer {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .clients .title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
 .clients .clients-list {
-  display: block;
-  margin-top: 30px;
-  width: calc(100%-30px)/2;
+  /*width: calc(100%-30px)/2;*/
   /*@media screen and (min-width: 768px){
     width: calc((100% - 30px) / 2)}*/
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list {
+    display: block;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-columns: 2;
+            columns: 2;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3578,6 +3620,12 @@ div.background-lengthening-footer {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list .clients .clients-item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -3938,6 +3986,15 @@ li.contacts-item:hover {
 
 .clients.container {
   padding-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .clients.container {
+    padding-bottom: 60px;
+  }
 }
 
 .clients .title {
@@ -3951,12 +4008,30 @@ li.contacts-item:hover {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .clients .title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
 .clients .clients-list {
-  display: block;
-  margin-top: 30px;
-  width: calc(100%-30px)/2;
+  /*width: calc(100%-30px)/2;*/
   /*@media screen and (min-width: 768px){
     width: calc((100% - 30px) / 2)}*/
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list {
+    display: block;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-columns: 2;
+            columns: 2;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3968,6 +4043,12 @@ li.contacts-item:hover {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list .clients .clients-item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -4182,7 +4263,6 @@ svg.clients-icon:focus,
 }
 
 .comand {
-  width: 271px;
   /*height: 368px;*/
   border: 1px solid #ECECEC;
   background-color: #ffffff;
@@ -4194,6 +4274,16 @@ svg.clients-icon:focus,
 @media screen and (max-width: 767px) {
   .comand {
     margin-left: 15px;
+    width: 56%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .comand {
+    width: 271px;
   }
 }
 
@@ -5350,6 +5440,15 @@ div.background-lengthening-footer {
 /* clients */
 .clients.container {
   padding-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .clients.container {
+    padding-bottom: 60px;
+  }
 }
 
 .clients .title {
@@ -5363,12 +5462,30 @@ div.background-lengthening-footer {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .clients .title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
 .clients .clients-list {
-  display: block;
-  margin-top: 30px;
-  width: calc(100%-30px)/2;
+  /*width: calc(100%-30px)/2;*/
   /*@media screen and (min-width: 768px){
     width: calc((100% - 30px) / 2)}*/
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list {
+    display: block;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-columns: 2;
+            columns: 2;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -5380,6 +5497,12 @@ div.background-lengthening-footer {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients .clients-list .clients .clients-item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 

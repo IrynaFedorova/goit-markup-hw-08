@@ -76,7 +76,7 @@
   }
 
   .comand{
-    width: 271px;
+    
     /*height: 368px;*/
     border: 1px solid #ECECEC;
     background-color: #ffffff;
@@ -84,6 +84,11 @@
   border-radius: 0px 0px 4px 4px;
   @media screen and (max-width: 767px){
     margin-left: 15px;
+    width: 56%;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px){
+    width: 271px;
   }
   }
   
