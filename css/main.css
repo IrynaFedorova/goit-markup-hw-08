@@ -1234,6 +1234,10 @@ li.contacts-item:hover {
   }
 }
 
+.main-container.center {
+  padding-top: 118px;
+}
+
 /*style*/
 /*.hero {
     /*background-color: #2F303A;
@@ -1309,6 +1313,10 @@ li.contacts-item:hover {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
   }
+}
+
+.main-container.center {
+  padding-top: 118px;
 }
 
 /*buttun*/
