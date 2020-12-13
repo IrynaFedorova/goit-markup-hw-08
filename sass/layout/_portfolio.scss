@@ -1,15 +1,24 @@
 .portfolio .filter {
+@media screen and (min-width: 768px){
     display: flex;
     justify-content: center;
-/*@media screen and (min-width: 768px){
-    display: flex;
-}*/
+}
 }
   .portfolio .filter-items:not(:last-child) {
-  /*@media screen and (min-width: 768px){*/
+  @media screen and (min-width: 768px){
       margin-right: 8px;
-  
   }
+  }
+  /*.portfolio .filter-items:nth-child(4) {
+    @media screen and (max-width: 767px){
+margin-top: 15px;
+    }
+  }
+  .portfolio .filter-items:nth-child(5) {
+    @media screen and (max-width: 767px){
+margin-top: 15px;
+    }
+  }*/
   
   .portfolio .filter-items{
       display: inline;
