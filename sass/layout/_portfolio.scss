@@ -1,14 +1,14 @@
 .portfolio .filter {
-    /*display: flex;*/
-    justify-content: center;
-@media screen and (min-width: 768px){
     display: flex;
-}
+    justify-content: center;
+/*@media screen and (min-width: 768px){
+    display: flex;
+}*/
 }
   .portfolio .filter-items:not(:last-child) {
-  @media screen and (min-width: 768px){
+  /*@media screen and (min-width: 768px){*/
       margin-right: 8px;
-  }
+  
   }
   
   .portfolio .filter-items{

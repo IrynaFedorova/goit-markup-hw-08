@@ -14,9 +14,10 @@
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 94px;
-   padding-bottom: 94px;
+  
   @media screen and (min-width: 768px){
       display: flex;
+      padding-bottom: 94px;
     }
   }
 
@@ -38,15 +39,23 @@
     line-height: 1,7px;
     margin-top: 4px;
     flex-wrap: wrap;
-    width: 270px;
+    width: 100%;
     text-align: left;
-    margin-right: 20px;
+    @media screen and (max-width: 767px){
+    padding-bottom: 30px;}
+    @media screen and (min-width: 768px){
+      margin-right: 20px;
+      /*width: 270px;*/
+    }
     }
   
   .features .section-details {
-     padding: 94px 0px;
+     @media screen and (min-width: 768px) {
      display: flex;
+     padding: 94px 0px;
       }
+    }
+
   .section-details .items {
       @media screen and (min-width: 768px){
           width: calc((100% - 90px) / 2);

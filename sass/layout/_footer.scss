@@ -10,6 +10,24 @@
     margin-bottom: 9px;*/
   }
   
+  .text-decoration{
+text-decoration: none;
+  }
+
+  .footer-site-nav-list {
+    display: inline-flex;
+      align-items: center;
+      @media screen and (max-width: 767px){
+      font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+height: 21px;
+text-decoration: none;
+  }
+}
   /*.footer-container{
   display:flex;
   
@@ -48,9 +66,14 @@
   width: 280px;*/
   
   .column {
-    float: left;
-    width: 25%;
-    padding: 10px;}
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    @media screen and (min-width: 768px){
+      float: left;
+      width: 25%;
+    }
+  }
   
     .row:after {
       content: "";
@@ -59,7 +82,7 @@
   
   
   .footer-text-color-address{
-   color:hsla(0, 0%, 60%, 1)
+   color:hsla(0, 0%, 60%, 1);
   }
   
   /*.footer-icon-title{
@@ -74,15 +97,21 @@
   
   .background-lengthening-footer{
     background-color: #2F303A;
-    margin:0 auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
     width: 100%;
+    padding-bottom: 60px;
+      padding-top: 60px;
+    @media screen and (min-width: 768px){
+      display: flex;
+      margin:0 auto;
+    }
   }
 
   .text-footer{
-    padding-bottom: 9px;
+    display: block;
+    @media screen and (max-width: 767px){
+      text-align: center;
+      padding-bottom: 9px;
+    }
   }
 
   .footer-nav-list{
@@ -200,19 +229,29 @@
   margin-right: 70px;
   }
   .footer-networks {
-  display: flex;
+    display: flex;
   margin-top: 20px;
-  padding-right: 100px;
   padding-top: 0px;
+  @media screen and (max-width: 767px){
+  justify-content: center;}
+  @media screen and (min-width: 768px){
+    padding-right: 100px;
+  }
   }
 
   .footer-form {
+    text-align: center;
+    @media screen and (min-width: 768px){
     display: flex;
     align-items: flex-end;
     }
+    }
     .footer-mai-input {
+      margin-bottom: 20px;
+      @media screen and (min-width: 768px){
     display: flex;
     flex-direction: column;
+      }
     }
     .footer-mai-input .helper::placeholder {
     color: rgba(255, 255, 255, 0.6);

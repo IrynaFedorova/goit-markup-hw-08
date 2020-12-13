@@ -51,8 +51,6 @@
     padding-right: 28px;
     padding-bottom: 10px;
     padding-left: 29px;
-    
-    display: flex;
     align-items: center;
     
     font-weight: 700;
@@ -65,4 +63,20 @@
     border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    @media screen and (min-width: 768px) {
+      display: flex;
     }
+    }
+
+    .mobile-menu-btn{
+      display: none;
+      width: 35px;
+      height: 35px;
+      @media screen and (max-width: 767px){
+        display: block;
+      }
+    }
+
+    /*.mobile-menu-btn.is--open{
+      background-image: url(./SVG/sprite.svg#icon-menu);
+    }*/

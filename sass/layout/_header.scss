@@ -1,5 +1,12 @@
 .main-nav{
     display: inline-flex;
-    align-items: center;
+    align-items:center;
+        @media screen and (max-width: 767px){
+        margin-bottom: 16px;
+        margin-top: 16px;
+        justify-content: space-between;
+        flex-grow: 1;
+        width: 100%;
+      }
  }
 

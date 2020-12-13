@@ -25,18 +25,22 @@
   }
 
   .clients .clients-links {
-    /*display: flex;*/
     width: 170px;
     height: 90px;
-    justify-content: center;
-    align-items: center;
+    display: block;
+   /*justify-content: center;
+    align-items: center;*/
   
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
- 
-  &:hover,
-  &:focus .clients-icon {
+    @media screen and (min-width: 768px){
+      display: flex;
+    }
+  }
+
+  .clients .clients-links:hover,
+  .clients .clients-links:focus .clients-icon {
     border: 1px solid $accent-color;
     fill: $accent-color;
 
@@ -51,9 +55,8 @@
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-
   @media screen and (min-width: 768px){
-      display: inline-block
+      display: inline-block;
     }
   }
 
@@ -67,13 +70,13 @@
     width:50px;
     height: 45px;
     /*position: absolute;*/
+  }
     
-    
-    &:focus,
-    &:hover{
+  svg.clients-icon:focus,
+  .clients-icon:hover{
     fill: $accent-color;
     }
-  }
+  
     .clients-links:focus .clients-icon,
 .clients-links:hover .clients-icon {
 fill: $accent-color;

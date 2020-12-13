@@ -1,6 +1,6 @@
 /*.hero {
-    background-color: #2F303A;
-    background-image: url(../images/images-hm4/Img2optim.jpg);
+    /*background-color: #2F303A;
+    background-image: url(../images/images-hm4/Img2optim.jpg);*/
    /* @media screen and (min-width: 767px){
       background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/mobile-header.jpg");
       background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/mobile-header.jpg");}
@@ -10,7 +10,8 @@
      @media screen and (min-width: 1200px){
      background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
-    }*/
+    }}*/
+  
     
     .hero-name{
       color: #FFFFFF;
@@ -40,11 +41,17 @@
     background-color: #2f303a;
    text-align: center;
    background-repeat: no-repeat;
-   /*@media screen and (min-width: 767px){
+   background-size: cover;
+   @media screen and (max-width: 767px){
     background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/mobile-header.jpg");
     background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/mobile-header.jpg");
+  }
     @media screen and (min-width: 768px){
       background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/tablet-header.jpg");
-      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/tablet-header.jpg");*/
-   background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
-   background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg")}
+      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/tablet-header.jpg");
+    }
+      @media screen and (min-width: 1200px){
+      background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
+      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
+    }
+  }
