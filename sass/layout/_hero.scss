@@ -12,7 +12,6 @@
      background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
     }}*/
   
-    
     .hero-name{
       color: #FFFFFF;
     }
@@ -26,7 +25,7 @@
       text-align: center;
       padding-bottom: 30px;
       letter-spacing: 0.06em;
-      @media screen and (max-width: 767px){
+      @media screen and (max-width: 1199px){
         font-size: 26px;
         letter-spacing: 0.06em;}
     }
@@ -45,7 +44,7 @@
     background-color: #2f303a;
    text-align: center;
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
    @media screen and (max-width: 767px){
     background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/mobile-header.jpg");
     background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/mobile-header.jpg");
@@ -56,13 +55,20 @@
     @media screen and (min-width: 768px){
       background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/tablet-header.jpg");
       background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/tablet-header.jpg");
+      background-size: cover;
+      width: 768px;
+      height: 400px;
     }
       @media screen and (min-width: 1200px){
       background-image: -webkit-gradient(linear,left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
       background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
+      padding-top:200px;
+      padding-bottom:280px;
+      
     }
   }
 
   .main-container.center{
-    padding-top: 118px;
+    @media screen and (max-width: 1199px){
+    padding-top: 118px;}
   }

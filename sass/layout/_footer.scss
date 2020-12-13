@@ -86,7 +86,13 @@ float: center;
     padding: 10px;
   padding-bottom: 60px ;
   }
-    @media screen and (min-width: 768px){
+  /*@media screen and (min-width: 768px){
+    float: left;
+      width: 50%;
+      padding-left: 76px;
+      text-align: center;
+    }*/
+    @media screen and (min-width:1200px){
       float: left;
       width: 25%;
       padding: 10px;
@@ -267,14 +273,18 @@ float: center;
     align-items: flex-end;
     }
     }
+
+
     .footer-mai-input {
+      
       @media screen and (max-width: 767px){
       margin-bottom: 20px;}
-      @media screen and (min-width: 768px){
+     @media screen and (min-width: 768px){
     display: flex;
     flex-direction: column;
       }
-    }
+  }
+
     .footer-mai-input .helper::placeholder {
     color: rgba(255, 255, 255, 0.6);
     }
@@ -303,6 +313,9 @@ float: center;
     /*padding-top: 14px;
     margin-left: 93px;*/
     float: left;
+    @media screen and (min-width: 768px){
+      text-align: center;
+    }
     }
   
   div.background-lengthening-footer{
